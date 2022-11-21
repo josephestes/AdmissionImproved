@@ -1,6 +1,6 @@
 # AdmissionImproved
 
-This program decides whether "admission" requirements have been met based on user input.
+This program outputs whether "admission" requirements have been met based on user input.
 
 ### Program Logic:
 
