@@ -50,10 +50,7 @@ namespace AdmissionImproved
             }
 
             //Calculate and output result
-            if ((gradePointAverage >= MIN_GPA && admissionTestScore >= LOW_TEST_SCORE) || (gradePointAverage < MIN_GPA && admissionTestScore >= HIGH_TEST_SCORE))
-                WriteLine("Accept");
-            else
-                WriteLine("Reject");
+            WriteLine((gradePointAverage >= MIN_GPA && admissionTestScore >= LOW_TEST_SCORE) || (gradePointAverage < MIN_GPA && admissionTestScore >= HIGH_TEST_SCORE) ? "Accept" : "Reject");
         }
     }
 }
